@@ -2656,3 +2656,60 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 
 ###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
 
+1653986882132	geckodriver	INFO	Listening on 127.0.0.1:53266
+1653986885131	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileTqfLdz"
+*** You are running in headless mode.
+1653986885792	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileTqfLdz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53267/devtools/browser/4b7b8605-e316-43aa-a86b-0a3a21f29469
+1653986887762	Marionette	INFO	Listening on port 53298
+Read port: 53298
+1653986887823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653986900679	Marionette	INFO	Stopped listening on port 53298
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1653987553134	geckodriver	INFO	Listening on 127.0.0.1:53874
+1653987556168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53875" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile0pBnVL"
+*** You are running in headless mode.
+1653987557259	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile0pBnVL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53875/devtools/browser/3fb6ab71-25e2-42d7-8bbf-52807e092af6
+1653987560614	Marionette	INFO	Listening on port 53913
+Read port: 53913
+1653987560729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653987574731	Marionette	INFO	Stopped listening on port 53913
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+

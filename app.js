@@ -36,7 +36,6 @@ const getHistories = (username, password) => {
 app.get('/', function (req, res) {
     req.setTimeout(1000 * 60 * 10)
     let get_list = getHistories("0988851934", "Ha@2002");
-    console.log(get_list)
     res.send(get_list);
 })
 
