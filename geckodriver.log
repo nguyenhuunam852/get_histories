@@ -2450,3 +2450,209 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 
 ###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1653984310623	geckodriver	INFO	Listening on 127.0.0.1:50805
+1653984313772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50806" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilefI8a3l"
+*** You are running in headless mode.
+1653984314960	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilefI8a3l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50806/devtools/browser/64f8a062-7fc2-4d9e-b9ec-a35dbae9e385
+1653984317808	Marionette	INFO	Listening on port 50837
+Read port: 50837
+1653984317925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653984323697	Marionette	INFO	Stopped listening on port 50837
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\DELL\AppData\Local\Temp\rust_mozprofilefI8a3l\protections.sqlite
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1653984405489	geckodriver	INFO	Listening on 127.0.0.1:50957
+1653984408537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50958" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileU00P1N"
+*** You are running in headless mode.
+1653984409207	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileU00P1N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50958/devtools/browser/39334e37-7e42-463a-81ba-2f1680831324
+1653984412079	Marionette	INFO	Listening on port 50991
+Read port: 50991
+1653984412156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653984421413	Marionette	INFO	Stopped listening on port 50991
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653984455667	geckodriver	INFO	Listening on 127.0.0.1:51147
+1653984458742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51148" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile9jJjjF"
+*** You are running in headless mode.
+1653984459458	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile9jJjjF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51148/devtools/browser/7cff6c79-d993-4094-82af-83bbb92fed28
+1653984461275	Marionette	INFO	Listening on port 51179
+Read port: 51179
+1653984461342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653984468476	Marionette	INFO	Stopped listening on port 51179
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653984488626	geckodriver	INFO	Listening on 127.0.0.1:51373
+1653984491689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51374" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileqnGdAk"
+*** You are running in headless mode.
+1653984492632	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileqnGdAk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51374/devtools/browser/282c6d86-8421-4130-895a-8b3028ea579b
+1653984494986	Marionette	INFO	Listening on port 51415
+Read port: 51415
+1653984495047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653984500537	Marionette	INFO	Stopped listening on port 51415
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\DELL\AppData\Local\Temp\rust_mozprofileqnGdAk\protections.sqlite
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653984514143	geckodriver	INFO	Listening on 127.0.0.1:51503
+1653984517168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileKWBWSj"
+*** You are running in headless mode.
+1653984517930	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileKWBWSj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51504/devtools/browser/d28334eb-7df6-4070-871d-147b2d6c05cd
+1653984519708	Marionette	INFO	Listening on port 51535
+Read port: 51535
+1653984519840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653984530674	Marionette	INFO	Stopped listening on port 51535
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1653984556241	geckodriver	INFO	Listening on 127.0.0.1:51636
+1653984559276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "51637" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileG4fDPK"
+*** You are running in headless mode.
+1653984559916	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileG4fDPK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51637/devtools/browser/6fde10fd-1f93-43b8-aa55-8cfed37430ec
+1653984561713	Marionette	INFO	Listening on port 51667
+Read port: 51667
+1653984561763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653984578960	Marionette	INFO	Stopped listening on port 51667
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1653985197224	geckodriver	INFO	Listening on 127.0.0.1:53013
+1653985200257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53014" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileXScg1l"
+*** You are running in headless mode.
+1653985200935	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileXScg1l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53014/devtools/browser/dd43732e-5c52-4b54-b535-39bd1ed90178
+1653985203473	Marionette	INFO	Listening on port 53047
+Read port: 53047
+1653985203605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1134: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653985214157	Marionette	INFO	Stopped listening on port 53047
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
