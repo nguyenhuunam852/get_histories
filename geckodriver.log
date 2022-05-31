@@ -2378,3 +2378,75 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 
 ###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
 
+1653981749134	geckodriver	INFO	Listening on 127.0.0.1:53806
+1653981752273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53807" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilenWRpLW"
+*** You are running in headless mode.
+1653981753208	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilenWRpLW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53807/devtools/browser/94bc7e7d-a225-484a-af58-f7a9366b75c6
+1653981755390	Marionette	INFO	Listening on port 53836
+Read port: 53836
+1653981755466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1130: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653981772675	Marionette	INFO	Stopped listening on port 53836
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653981806950	geckodriver	INFO	Listening on 127.0.0.1:53940
+1653981810006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile9s8rtx"
+*** You are running in headless mode.
+1653981810665	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile9s8rtx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53941/devtools/browser/8307e744-dda0-4832-bd33-7c5f842601aa
+1653981812437	Marionette	INFO	Listening on port 53971
+Read port: 53971
+1653981812514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1130: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653981828101	Marionette	INFO	Stopped listening on port 53971
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1653981852216	geckodriver	INFO	Listening on 127.0.0.1:54072
+1653981855274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileKL3Ija"
+*** You are running in headless mode.
+1653981855883	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileKL3Ija\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54073/devtools/browser/589109ba-3966-4386-9fad-bb015bbab66d
+1653981857661	Marionette	INFO	Listening on port 54104
+Read port: 54104
+1653981857770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ib.techcombank.com.vn/servlet/BrowserServlet, line 1130: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ib.techcombank.com.vn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653981872347	Marionette	INFO	Stopped listening on port 54104
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+

@@ -6,7 +6,7 @@ const utf8 = require('utf8');
 const hostname = '127.0.0.1';
 const port = 8080;
 
-const getHistories = async (username, password) => {
+const getHistories = (username, password) => {
     try {
         let execute = exec.execSync;
         let pythonenv = "python";
@@ -25,7 +25,7 @@ const getHistories = async (username, password) => {
 
         // if (object != null)
         //     return object.name;
-        return null;
+        return cmdresult.toString();
     }
     catch (e) {
         console.log(e)
@@ -35,8 +35,9 @@ const getHistories = async (username, password) => {
 
 app.get('/', function (req, res) {
     req.setTimeout(1000 * 60 * 10)
-    getHistories("0988851934", "Ha@2002")
-    res.send("Hello World");
+    let get_list = getHistories("0988851934", "Ha@2002");
+    console.log(get_list)
+    res.send(get_list);
 })
 
 app.listen(port, function () {
