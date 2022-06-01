@@ -49,13 +49,17 @@ def no_accent_vietnamese(s):
 # print(sys.argv[5])
 try:    
     #"https://ib.techcombank.com.vn/servlet/BrowserServlet"
-    driver.get(sys.argv[1])     
+    driver.get(sys.argv[1])  
+
     FindElem(driver,'//*[@id="signOnName"]').send_keys(sys.argv[2])
     FindElem(driver,'//*[@id="password"]').send_keys(sys.argv[3])
     FindElem(driver,'/html/body/div/div[2]/div[1]/form/div/div[1]/div[3]/input').submit()
+
     FindElem(driver,"/html/body/div/table/tbody/tr[1]/td/div[2]/ul/li[2]/a").click()
     FindElem(driver,"/html/body/div/table/tbody/tr[1]/td/div[2]/ul/li[2]/a").click()
-    FindElem(driver,"/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div/table/tbody/tr[2]/td/div[2]/div[2]/div/div[2]/form[1]/div[4]/table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[1]/a").click()  
+
+    FindElem(driver,"/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div/table/tbody/tr[2]/td/div[2]/div[2]/div/div[2]/form[1]/div[4]/table[2]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[1]/a").click() 
+     
     table = FindElem(driver,"/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div[3]/div[2]/div[1]/div/form/div/table/tbody/tr[2]/td[2]").text
     print(no_accent_vietnamese(table))
      
