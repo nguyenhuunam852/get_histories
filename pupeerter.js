@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 
 (async () => {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
     const page = await browser.newPage();
 
     await page.goto('https://ib.techcombank.com.vn/servlet/BrowserServlet');
@@ -32,10 +32,26 @@ const puppeteer = require('puppeteer');
     // let value = await text.
     // console.log(value);
 
-    await page.waitForXPath('/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div[3]/div[2]/div[1]/div/form/div/table/tbody/tr[2]/td[2]', { visible: true, timeout: 10000 });
-    const element = await page.$x('/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div[3]/div[2]/div[1]/div/form/div/table/tbody/tr[2]/td[2]');
+    await page.waitForXPath('/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div[3]/div[2]/div[1]/div/form/div/table/tbody/tr[2]/td[2]/div[2]', { visible: true, timeout: 10000 });
+    const element = await page.$x('/html/body/div/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/div[3]/div[2]/div[1]/div/form/div/table/tbody/tr[2]/td[2]/div[2]');
     const getMsg = await page.evaluate(name => name.innerText, element[0]);
     console.log(getMsg)
+
+    class Crawler {
+        constructor(get_value) {
+            this.date = get_value[0];
+            this.note = get_value[1];
+            this.ka = get_value[2];
+            this.kb = get_value[3];
+        }
+    }
+    listCrawler = []
+    getMsg.split('\n').forEach(element => {
+        get_value = element.split('\t');
+        listCrawler.push(new Crawler(get_value))
+    });
+    console.log(listCrawler)
+
     // console.log(await page.evaluate(name => name.innerText, element))
     // const textObject = await element[0].getProperty('textContent');
     // const text = textObject._remoteObject.value;

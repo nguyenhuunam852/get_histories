@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "axios-cookiejar-support": "^4.0.2",
     "cheerio": "^1.0.0-rc.11",
     "child-process": "^1.0.2",
     "express": "^4.18.1",
+    "node-html-parser": "^5.3.3",
     "puppeteer": "^14.1.2",
+    "tough-cookie": "^4.0.0",
     "utf8": "^3.0.0"
   }
 }

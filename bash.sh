@@ -14,3 +14,5 @@ rm geckodriver-v0.23.0-linux64.tar.gz
 
 pip3 install selenium
 
+snap install chronium
+sudo apt install --assume-yes chromium-browser
