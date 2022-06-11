@@ -1,0 +1,141 @@
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="qrcode.js"></script>
+	<title>RSA Authentication</title>
+
+	<style type="text/css">
+			body,p,a,span,div,input,legend,h1,h2,h3,h4,h5,h6,li,dd,dt,th,td{
+			font-family:Arial, Helvetica, sans-serif;
+			}
+			body,p,a,span,div,input,legend,li,dd,dt,th,td{
+			}
+			#loginform {
+			width:300px;
+			margin:auto;
+			}
+			#loginform fieldset{
+			padding:10px;
+			}
+			#loginform legend{
+			font-weight:bold;
+			font-size:9pt;
+			}
+			#loginform label{
+			display:block;
+			height:2em;
+			background-color:#E7E7E7;
+			padding:10px 10px 0;
+			}
+			#loginform input {
+			margin-right:20px;
+			border:1px solid #999999;
+			float:right;
+			clear:right;
+			background:#CCCCCC;
+			}
+			#loginform input:focus,#loginform input:hover {
+			border:1px solid #333333;
+			}
+			.error{
+			color:red;
+			font-weight:bold;
+			}
+		</style>
+	<script>
+		ga('send', 'pageview', 'RsaAuthentication');
+	</script>
+	
+	</head>
+	<body onload="countDownSoftAuthentication()">
+	<div id = "content" class="soft-token-content">
+		<!-- Display error message -->
+		
+		<center>
+			<div id="error"></div>
+			<form id="rsaform" method="post" target="/servlet/BrowserServlet" action="/servlet/BrowserServlet"><input type="hidden" name="formToken" value="149D7CEF78CA7B7ECACDE0622788229EEE7AF2A9BFBEFDD6CD">				
+				<div class="qwfieldset authen_panel">
+					<div id="qwfs_title" class="authen_panel_title">Xác thực giao dịch</div>
+					<div id="qwfs_content" class="authen_content">
+						<div style="text-align: left;margin-left: 68px;color: #666666;font: 12px Arial, Helvetica, sans-serif;font-weight: bold;">Mã QR</div>
+						<div>
+							<div style="text-align: left;float:left; width: 110px; margin-left: 35px;"><iframe id="iframe" align="center" src="../html/qrcode/index.jsp" name="iframe_a" frameborder="0" style="overflow-y: hidden;overflow-x: hidden;overflow:hidden; align-items: left;" scrolling="no" seamless="seamless"></iframe></div>
+							<div id="authen_rightcol" style="padding-top: 8px;margin-top: 8px;margin-left: 30px;">
+								<div class="left_row" style="width:120px" >Mã giao dịch:</div>
+								<div class="right_row" style="width:100px"><input readonly type="text" name="userPin" id="userPin" style="width: 155px;font: 1.35em Arial, sans-serif;border:  opx;border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px;" title="Mã giao dịch" value="17543666" /></div>
+								<div class="left_row" style="width:120px" >Smart OTP:</div>
+								<div class="right_row" style="width:100px"><input tabindex="1" type="password" name="tokenCode" id="tokenCode" onKeyPress="javascript:submitOnEnter(event)" style="width: 155px;font: 1.35em Arial, sans-serif;" title="Số Token/SMS OTP" /></div>
+								<div><input tabindex="1" type="hidden" name="rsa_passcode" id="rsa_passcode"/></div>
+								<div class="right_row" id="lgn_error" style="color: red; font-size: 13px; position: relative; width: 96%; left: 10px; font-style: italic;" >
+								
+									Bạn nhập sai Smart OTP 
+								</div>							
+							</div>						
+						</div>
+						<div class="right_row authen_btn_panel" style="padding-top: 0px;margin-top: 15px; margin-right: 30px;">
+							<a href="javascript:validateForm(window.document.forms['rsaform'])" class="textbtn" style="width:85px">
+								Xác thực
+							</a>&nbsp;&nbsp;&nbsp;
+							<a id="authenCancelBtn" href="javascript:cancelForm('COS AI.QCK.SUM',2)" class="textbtn" style="width:95px;">
+								Hủy bỏ
+							</a>
+					</div>
+					</div>
+					<br>
+					<p id="timer" style="margin-left: 185px; margin-bottom: 10px;">
+    Giao dịch sẽ hết hiệu lực sau <input value = "" id="minutes" type="text" style="width: 10px; border: none; background-color:none; font-size: 16px; font-weight: bold;"> phút và <input value = "" id="seconds" type="text" style="width: 20px; border: none; background-color:none; font-size: 16px; font-weight: bold;"> giây.
+    </p>
+	</p> 
+	</p>
+	</div>
+	
+	
+	<div class="qwfieldset authen_panel" style="margin-top: 0px;border-top-width: 0px; */">
+		<div id="qwfs_title" class="authen_panel_title" style="background-color: transparent;margin-top:  5px;margin-bottom:  20px;">HƯỚNG DẪN DÙNG FAST MOBILE LẤY MÃ OTP</div>	
+		<div class="note_soft" style="float:1; display:flex; width:550px; margin-top: 25px;line-height: 2;">
+			<p>&nbsp;</p>
+			<div class="item2" style="flex-grow: 1;text-align: left;line-height: 1.5; margin-left: 50px;"> 
+				<p><img src="../TCB/images/Tick.png" width="15" height="15" /> <strong>Bước 1:</strong> Mở ứng dụng Fast Mobile, tại màn hình đăng nhập</p>
+				<p style="margin-left: 67px; display: flex; align-items: center;"><strong>&rarr;</strong>Bấm vào nút<img style="margin-left: 10px;" src="../TCB/images/Nut Lay Ma otp.png" alt="" width="auto" height="30" /> </p>
+				<p><img src="../TCB/images/Tick.png" width="15" height="15" /> <strong>Bước 2: </strong>Trên ứng dụng Fast Mobile, nhập mã giao dịch hoặc quét</p> 
+				<p style="margin-left: 67px;">QR code bên cạnh, bấm &quot;<strong>Tiếp tục</strong>&quot;</p> 
+				<p><img src="../TCB/images/Tick.png" width="15" height="15" /><strong> Bước 3: </strong> Nhập mã mở khóa, Quý Khách sẽ nhận được mã OTP trên</p> 
+				<p style="margin-left: 67px;"> F@st Mobile.</p>
+				<p><img src="../TCB/images/Tick.png" width="15" height="15" /> <strong>Bước 4:</strong> Nhập mã <strong>OTP</strong> vừa nhận được vào ô phía trên để xác thực</p>
+				<p style="margin-left: 67px;">cho giao dịch.</p>
+				<p>&nbsp;</p>
+			</div>
+			
+		</div>
+		<div>
+			<p style="text-align: right;margin-right: 10;"><img src="../TCB/images/Hand icon.png" alt="" width="20" height="20" /><a href="../TCB/pdf/MSM_HDSD_LayMaOTPManual.pdf" target="_blank"> Xem hướng dẫn chi tiết<a></p>
+			<p>&nbsp;</p>
+		</div>
+	</div>					
+	<input type="hidden" name="requestType" value="OFS.APPLICATION" />
+	<input type="hidden" name="command" value="globusCommand" />
+	<input type="hidden" name="application" value="FUNDS.TRANSFER" />
+	<input type="hidden" name="version" value=",AI.QCK.CITAD.CON.TCB" />
+	<input type="hidden" name="formToken" value="B9C2976A8006C77DF8F35F3C7571B880C1C921BEE3325DB3C9" />
+	<input type="hidden" name="step" value="token" />		
+	<input type="hidden" name="rsastatus" value="aaaaaaaaaaaa" />
+	
+			</form>
+		</center>
+		
+		<form id="rsacancelform" method="post" target="/servlet/BrowserServlet" action="/servlet/BrowserServlet" style="display:none;"><input type="hidden" name="formToken" value="C8FB065FC8CD6B3BCFB20F2D6A122299CEFF704D028A05AFD3">
+			<input readonly type="text" name="rsacancel" value="yes" />
+		</form>
+	</div>
+
+	</body>
+</html>
